@@ -1,0 +1,4 @@
+access-list 2 deny 172.16.80.0 0.0.0.255
+access-list 2 permit any
+interface E0 #Edmonton
+ip access-group 2 out
